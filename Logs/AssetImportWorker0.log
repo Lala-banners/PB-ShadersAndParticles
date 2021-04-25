@@ -1679,3 +1679,44 @@ System memory in use after: 175.8 MB.
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4948.
 Total: 3.553100 ms (FindLiveObjects: 0.433400 ms CreateObjectMapping: 0.188900 ms MarkObjects: 2.856300 ms  DeleteObjects: 0.073100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 425.025466 seconds.
+  path: Assets/Shaders/Grow Vines
+  artifactKey: Guid(cb04d70c1504ce44693a18af2a80a825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines using Guid(cb04d70c1504ce44693a18af2a80a825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4392b30f2711cda4bbe9075628d8f2d') in 0.010603 seconds
+  Import took 0.017585 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001743 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.163 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4952.
+Total: 3.622700 ms (FindLiveObjects: 0.572000 ms CreateObjectMapping: 0.225300 ms MarkObjects: 2.756800 ms  DeleteObjects: 0.067800 ms)
+
