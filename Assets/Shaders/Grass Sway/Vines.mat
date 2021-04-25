@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WaterMat
-  m_Shader: {fileID: -6465566751694194690, guid: 25ad0b6d34ee7c441bb8df1410141b70, type: 3}
+  m_Name: Vines
+  m_Shader: {fileID: -6465566751694194690, guid: 9e84e91205383e744b8158ac7706b750, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -19,14 +19,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -40,12 +32,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_62fa223d296a4c6fbeaed0ae8142e266: 0.1
-    - Vector1_6a6b210382754ed99b82e143c61c6a38: 5
-    - Vector1_7693aadadbfe44eda8ec9358aca1c8fd: 8
-    - Vector1_f584949fe3d34eb5a03b363356888779: 1
+    - Vector1_28a492cdc3ba49739189793087f99dd9: 1
+    - Vector1_5348d51c479f4c0cb31308c0de37892d: 0.5
+    - Vector1_7d30251b1c6643da8fe181ed444ae780: 0
+    - Vector1_9d59115c61434f8780de2eb68b1fb374: 0
+    - Vector1_f3bb42d98b3f4cfd94275c215bb66b35: 1
+    - _grow: 1
     m_Colors:
-    - Color_6c824030c1074b5c8a1a6fda1c4808bd: {r: 0, g: 2, b: 2, a: 0}
-    - Color_f6d597be7bc6411589cb5d08930aea1f: {r: 0, g: 0.7882353, b: 1, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - Color_aa89667c7cbf4b4bb357879182505b70: {r: 0.35081697, g: 0.9056604, b: 0.31100032, a: 1}
+    - Vector3_3dc76e5a267f473fbb2ec988bded248b: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
