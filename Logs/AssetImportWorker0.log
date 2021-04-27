@@ -15,11 +15,11 @@ C:/Users/lalal/Documents/Class Projects/PB-ShadersAndParticles
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61014
+55827
 Successfully changed project path to: C:/Users/lalal/Documents/Class Projects/PB-ShadersAndParticles
 C:/Users/lalal/Documents/Class Projects/PB-ShadersAndParticles
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 62.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 65.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -40,273 +40,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002478 seconds.
+Registered in 0.002214 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 60.88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.253 seconds
+- Completed reload, in  1.255 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001690 seconds.
+Registered in 0.001670 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 63.10 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.322 seconds
+- Completed reload, in  1.320 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3515 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3512 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 155.0 MB.
-System memory in use after: 155.3 MB.
+System memory in use after: 155.2 MB.
 
-Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 3959.
-Total: 3.281300 ms (FindLiveObjects: 0.328500 ms CreateObjectMapping: 0.214200 ms MarkObjects: 2.625200 ms  DeleteObjects: 0.112500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Jiggly Bubble Free/Scenes/default_scene.unity
-  artifactKey: Guid(5dfef0b71adcd15489648c649dd26e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Scenes/default_scene.unity using Guid(5dfef0b71adcd15489648c649dd26e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b799d0e15da8a69dd08b72e1207a35f') in 0.010523 seconds
-  Import took 0.016487 seconds .
+Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 3957.
+Total: 3.009500 ms (FindLiveObjects: 0.313600 ms CreateObjectMapping: 0.191300 ms MarkObjects: 2.396100 ms  DeleteObjects: 0.107600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Jiggly Bubble Free/Shaders
-  artifactKey: Guid(1c9480ce51cfe5c49b148cd01a2f7833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Shaders using Guid(1c9480ce51cfe5c49b148cd01a2f7833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423730215d08bb4aec3e4f422feb1bfb') in 0.005998 seconds
-  Import took 0.010679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.679845 seconds.
-  path: Assets/Jiggly Bubble Free/Scenes/bubble cubemap.unity
-  artifactKey: Guid(3d9c6c54da3c45e4bb2390c8a6373522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Scenes/bubble cubemap.unity using Guid(3d9c6c54da3c45e4bb2390c8a6373522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907ec46daa614181ed1574c756f084cc') in 0.007741 seconds
-  Import took 0.013452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.598182 seconds.
-  path: Assets/Jiggly Bubble Free/Materials/bubble cubemap skybox.mat
-  artifactKey: Guid(f955a97081915034a98a5885275adb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Materials/bubble cubemap skybox.mat using Guid(f955a97081915034a98a5885275adb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398b9e110388e85ea92a47b0efc64356') in 0.257739 seconds
-  Import took 0.262724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.904261 seconds.
-  path: Assets/Jiggly Bubble Free/Textures/bubble.png
-  artifactKey: Guid(0a2702066098739458b46ca8a46ab838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Textures/bubble.png using Guid(0a2702066098739458b46ca8a46ab838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc2fc2b41b97dbb81dcd6dbc936d863') in 0.027103 seconds
-  Import took 0.032883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Jiggly Bubble Free/Textures/cubemap test.png
-  artifactKey: Guid(221c9f1896905ca4d80d981b14b8e2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Textures/cubemap test.png using Guid(221c9f1896905ca4d80d981b14b8e2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a82662daf12ee94a66739ebc4322236') in 0.023816 seconds
-  Import took 0.028771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Jiggly Bubble Free/Textures/bubble_soapy_sheet.png
-  artifactKey: Guid(e11a2e82d23744f4bbaa2bf0d00a7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Textures/bubble_soapy_sheet.png using Guid(e11a2e82d23744f4bbaa2bf0d00a7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32092af87dbf07ec92aa4c2bf141019') in 0.012803 seconds
-  Import took 0.018315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Jiggly Bubble Free/Textures/circle.png
-  artifactKey: Guid(827cfc83afa113f4b9f699ad6afc5941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Textures/circle.png using Guid(827cfc83afa113f4b9f699ad6afc5941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54ad355c809b869c00c1b8c15c8980b') in 0.018241 seconds
-  Import took 0.024111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Jiggly Bubble Free/Textures/bubble_grey.psd
-  artifactKey: Guid(364dfee8dc474ba46b35ad1e0803a746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Textures/bubble_grey.psd using Guid(364dfee8dc474ba46b35ad1e0803a746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2cd4d429a7b02fe0e9a11580372238') in 0.017748 seconds
-  Import took 0.022902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006833 seconds.
-  path: Assets/Jiggly Bubble Free/Textures/circle.png
-  artifactKey: Guid(827cfc83afa113f4b9f699ad6afc5941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Textures/circle.png using Guid(827cfc83afa113f4b9f699ad6afc5941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54ad355c809b869c00c1b8c15c8980b') in 0.007749 seconds
-  Import took 0.013262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.415831 seconds.
-  path: Assets/Jiggly Bubble Free/Materials/bubble cubemap.mat
-  artifactKey: Guid(45ef1c220d547b848854241c81d513f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Materials/bubble cubemap.mat using Guid(45ef1c220d547b848854241c81d513f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df8f87a0b15118024ff4952995b94dc') in 0.016758 seconds
-  Import took 0.022576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Jiggly Bubble Free/Materials/bubble.mat
-  artifactKey: Guid(cec0b2c714b441240b98d7c904818225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Materials/bubble.mat using Guid(cec0b2c714b441240b98d7c904818225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4274c9e43a0eebabccff86553a7c948') in 0.023446 seconds
-  Import took 0.028120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Jiggly Bubble Free/Materials/bubble_sheet.mat
-  artifactKey: Guid(57f73b2c859446646ab31ce06c104c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiggly Bubble Free/Materials/bubble_sheet.mat using Guid(57f73b2c859446646ab31ce06c104c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e3d630a3dd980324ace3d4597ef929') in 0.016697 seconds
-  Import took 0.022072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 203.690499 seconds.
-  path: Assets/Shaders/Bubble/Jiggly Bubble Free/Materials
-  artifactKey: Guid(12c9f05787959754ba12e8fa6cf71922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Jiggly Bubble Free/Materials using Guid(12c9f05787959754ba12e8fa6cf71922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7e2f61c12a29bf592f90f866f1d20c') in 0.006900 seconds
-  Import took 0.012549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.760528 seconds.
-  path: Assets/Shaders/Bubble/Jiggly Bubble Free/Scenes
-  artifactKey: Guid(f5bedc152fa75fa499e9fed05a474de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Jiggly Bubble Free/Scenes using Guid(f5bedc152fa75fa499e9fed05a474de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c04ee91f8e2fc7fadce5be0e5ee8bd') in 0.007474 seconds
-  Import took 0.012555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.867045 seconds.
-  path: Assets/Shaders/Bubble/Jiggly Bubble Free/Prefabs
-  artifactKey: Guid(9aa99ff339c496445b6cb30879b5330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Jiggly Bubble Free/Prefabs using Guid(9aa99ff339c496445b6cb30879b5330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa243789b1c654ca46863be5e835765') in 0.006773 seconds
-  Import took 0.012703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055959 seconds.
-  path: Assets/Shaders/Bubble/Jiggly Bubble Free/Prefabs/Particle jiggly bubble soapy cubemap skybox.prefab
-  artifactKey: Guid(d8b56b4d9f7ade24082aebbe30daa6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Jiggly Bubble Free/Prefabs/Particle jiggly bubble soapy cubemap skybox.prefab using Guid(d8b56b4d9f7ade24082aebbe30daa6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6060477443345270feb18dd8216b0afd') in 0.022642 seconds
-  Import took 0.028217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Shaders/Bubble/Jiggly Bubble Free/Prefabs/Particle jiggly bubble soapy cubemap.prefab
-  artifactKey: Guid(d7689380619fd894c8508730e2bed11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Jiggly Bubble Free/Prefabs/Particle jiggly bubble soapy cubemap.prefab using Guid(d7689380619fd894c8508730e2bed11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c95f88c447af42eb36f5f1d4dda0693') in 0.010721 seconds
-  Import took 0.016356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Shaders/Bubble/Jiggly Bubble Free/Prefabs/Particle jiggly bubble soapy.prefab
+  path: Assets/Shaders/Bubble/Bubble Graph/Wobble Bubble PS.prefab
   artifactKey: Guid(0d1adb20421ed664b800c8cf3d103e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Jiggly Bubble Free/Prefabs/Particle jiggly bubble soapy.prefab using Guid(0d1adb20421ed664b800c8cf3d103e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5edfc1f30cab0aebdabdda29a8f2240') in 0.009669 seconds
-  Import took 0.015709 seconds .
+Start importing Assets/Shaders/Bubble/Bubble Graph/Wobble Bubble PS.prefab using Guid(0d1adb20421ed664b800c8cf3d103e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78129cef023c0d7ebfb711d0a69c417') in 0.052525 seconds
+  Import took 0.057816 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.611608 seconds.
-  path: Assets/Shaders/Bubble/Jiggly Bubble Free/Shaders/Particle Alpha Blended Cubemap.shader
-  artifactKey: Guid(611c4f885b34bfd4cb985bc242ca4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Jiggly Bubble Free/Shaders/Particle Alpha Blended Cubemap.shader using Guid(611c4f885b34bfd4cb985bc242ca4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c76a4f6565c330f119e0b838ee0c44') in 0.010343 seconds
-  Import took 0.015942 seconds .
+  Time since last request: 16.793031 seconds.
+  path: Assets/Particle Systems/Fireworks/Sparkles.png
+  artifactKey: Guid(18ef763f37c57b948bc1fa0c896d3bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Sparkles.png using Guid(18ef763f37c57b948bc1fa0c896d3bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b7cf861d236d55c940d68694a927b1') in 0.079855 seconds
+  Import took 0.085380 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.002214 seconds.
-  path: Assets/Shaders/Bubble/Jiggly Bubble Free/Shaders/Particle Alpha Blended Cubemap.shader
-  artifactKey: Guid(611c4f885b34bfd4cb985bc242ca4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Jiggly Bubble Free/Shaders/Particle Alpha Blended Cubemap.shader using Guid(611c4f885b34bfd4cb985bc242ca4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c76a4f6565c330f119e0b838ee0c44') in 0.004566 seconds
-  Import took 0.009235 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001890 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-========================================================================
-Received Import Request.
-  Time since last request: 2.585088 seconds.
-  path: Assets/Shaders/Bubble/Jiggly Bubble Free/Shaders/Particle Alpha Blended Cubemap Skybox.shader
-  artifactKey: Guid(226a221bc293c7a4eba00ea1b631e70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Jiggly Bubble Free/Shaders/Particle Alpha Blended Cubemap Skybox.shader using Guid(226a221bc293c7a4eba00ea1b631e70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6211e19124e7534a47f5019043fd6bf') in 0.007421 seconds
-  Import took 0.012940 seconds .
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
-========================================================================
-Received Import Request.
-  Time since last request: 77.234929 seconds.
-  path: Assets/Shaders/Bubble/Bubble Graph
-  artifactKey: Guid(9e34fc7762368454882e7bf0010464c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Bubble Graph using Guid(9e34fc7762368454882e7bf0010464c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b8a0ebe3fc35c5f5cff93bb025033f') in 0.008118 seconds
-  Import took 0.013109 seconds .
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.4 MB.
+System memory in use after: 146.6 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.754801 seconds.
-  path: Assets/Shaders/Bubble/Bubble Graph/Bubble Material.mat
-  artifactKey: Guid(4402944133da99a45b0ddcca5945455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Bubble Graph/Bubble Material.mat using Guid(4402944133da99a45b0ddcca5945455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20f2af7aa5ca2e5aa7e1769974cb1fa') in 0.057277 seconds
-  Import took 0.062466 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3965.
+Total: 3.342400 ms (FindLiveObjects: 0.358300 ms CreateObjectMapping: 0.256200 ms MarkObjects: 2.668900 ms  DeleteObjects: 0.057600 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 4.598456 seconds.
-  path: Assets/Shaders/Bubble/Bubble Graph/Effect container.prefab
-  artifactKey: Guid(de881df5954532e4284d5c0526792f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Bubble Graph/Effect container.prefab using Guid(de881df5954532e4284d5c0526792f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d15ded9c64e890bbebfda899992b6b') in 0.010125 seconds
-  Import took 0.017017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027769 seconds.
-  path: Assets/Shaders/Bubble/Bubble Graph/Effect container.prefab
-  artifactKey: Guid(de881df5954532e4284d5c0526792f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Bubble Graph/Effect container.prefab using Guid(de881df5954532e4284d5c0526792f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d15ded9c64e890bbebfda899992b6b') in 0.005009 seconds
-  Import took 0.011126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.505741 seconds.
-  path: Assets/Shaders/Bubble/Bubble Graph/Bubble.shader
-  artifactKey: Guid(4a63b75b4b72d244a96d59abcca9a16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Bubble Graph/Bubble.shader using Guid(4a63b75b4b72d244a96d59abcca9a16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2441150ee12322691adf4025a1078610') in 0.006568 seconds
-  Import took 0.011753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015441 seconds.
-  path: Assets/Shaders/Bubble/Bubble Graph/Bubble.shader
-  artifactKey: Guid(4a63b75b4b72d244a96d59abcca9a16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Bubble Graph/Bubble.shader using Guid(4a63b75b4b72d244a96d59abcca9a16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2441150ee12322691adf4025a1078610') in 0.003308 seconds
-  Import took 0.009436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.843901 seconds.
-  path: Assets/Shaders/Bubble/Jiggly Bubble Free/Materials/bubble cubemap skybox.mat
-  artifactKey: Guid(f955a97081915034a98a5885275adb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bubble/Jiggly Bubble Free/Materials/bubble cubemap skybox.mat using Guid(f955a97081915034a98a5885275adb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8ab2489ec53ec545f6c4bf476db773') in 0.010345 seconds
-  Import took 0.015654 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
