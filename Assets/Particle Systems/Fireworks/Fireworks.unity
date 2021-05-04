@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 71188337}
   - component: {fileID: 71188336}
   m_Layer: 0
-  m_Name: Firework-swoosh-sound-effect
+  m_Name: Fireworks Swoosh Sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5230,7 +5230,7 @@ GameObject:
   - component: {fileID: 1309946117}
   - component: {fileID: 1309946116}
   m_Layer: 0
-  m_Name: FireWorks-With-Crackling-www.fesliyanstudios.com
+  m_Name: Fireworks Boom Sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15484,7 +15484,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.76792455, b: 0.98039216, a: 0}
+      maxColor: {r: 1, g: 1, b: 1, a: 0}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}

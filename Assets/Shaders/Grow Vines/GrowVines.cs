@@ -37,19 +37,22 @@ public class GrowVines : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        //Play animation for grow attack
-        animator.Play("Grow", 0);
+        MagicGrow();
+    }
 
+    public void MagicGrow()
+    {
         //Go through all materials in the vines
         for (int i = 0; i < growVinesMats.Count; i++)
         {
+            //Play animation for grow attack
+            animator.Play("Grow", 0);
+
             //Start Coroutine for growing the vines
             StartCoroutine(Grow(growVinesMats[i]));
         }
-
     }
 
     public IEnumerator Grow(Material mat)
